@@ -1,18 +1,25 @@
-Rogers Coding Copilot
-A Streamlit-based coding assistant powered by Groq's llama-3.3-70b-versatile model. Provides code generation, debugging, and explanations.
-Setup
+# 🚀 Rogers Coding Copilot
 
-Install dependencies:pip install -r requirements.txt
+A **Streamlit-based coding assistant** powered by **Groq's `llama-3.3-70b-versatile`** model. It provides **code generation**, **bug fixing**, and **explanations** based on the context you upload.
+
+---
+## 🌐 Live Demo
+
+Try the deployed app here:
+👉  https://copilottask.streamlit.app/
+---
+
+# 🚀 Run the App
+streamlit run app.py
+This will launch the app in your browser at:
+http://localhost:8501
 
 
-Set GROQ_API_KEY in a .env file.
-Run the app:streamlit app.py
+---
+## 🛠️ Setup Instructions
 
+### 1. Clone the Repository
 
-
-Files
-
-app.py: Streamlit interface with file uploader for context.
-groq_copilot.py: Backend logic for Groq API interaction.
-sample.py: Example context file.
-
+```bash
+git clone https://github.com/your-username/copilot-task.git
+cd copilot-task

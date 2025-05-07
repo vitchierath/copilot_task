@@ -1,4 +1,4 @@
-Groq Coding Copilot
+Rogers Coding Copilot
 A Streamlit-based coding assistant powered by Groq's llama-3.3-70b-versatile model. Provides code generation, debugging, and explanations.
 Setup
 
@@ -6,7 +6,7 @@ Install dependencies:pip install -r requirements.txt
 
 
 Set GROQ_API_KEY in a .env file.
-Run the app:streamlit run app.py
+Run the app:streamlit app.py
 
 
 
